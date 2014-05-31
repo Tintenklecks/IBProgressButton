@@ -68,5 +68,15 @@ How much the button moves when pressed is set by
 
 
 #Installation
-Well, I would install it with Cocoapods ... but 
+Well, I would install it with Cocoapods ...
+
+    pod "IBProgressButton"
+
+but if you prefer it the conventional way, just include the files
+
+**IBCircularProgressButton.h**and**IBCircularProgressButton.m**
+in your project. 
 #License
+I hate this stuff. So I chose MIT ... this seems the one that is the most liberal ;-)
+
+Means: Do what you want (but keep in mind, that I took parts from *Jose Luis Martinez de la Riva* ... what a cool name ;-)

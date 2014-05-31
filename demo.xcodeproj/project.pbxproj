@@ -20,6 +20,7 @@
 		6D979FA4193942750029BA29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D979F9A193942740029BA29 /* Images.xcassets */; };
 		6D979FA5193942750029BA29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D979F9B193942740029BA29 /* main.m */; };
 		6D979FA6193942750029BA29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D979F9D193942740029BA29 /* ViewController.m */; };
+		6D979FA9193A13780029BA29 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D979FA8193A13780029BA29 /* icon2.png */; };
 		KIYDQKWBMRKIEYEVRWSLKUDQ /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = HYXIFWTDXJPPRRMDCEPMDTJH /* QuartzCore.framework */; };
 		KNPONLATPTEBRUFEBXNXFHCQ /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = THBDITSPYVFDWQYYBDCIDIXG /* libz.dylib */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		6D979F9B193942740029BA29 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = main.m; path = demo/main.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6D979F9C193942740029BA29 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ViewController.h; path = demo/ViewController.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		6D979F9D193942740029BA29 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ViewController.m; path = demo/ViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6D979FA8193A13780029BA29 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = demo/icon2.png; sourceTree = SOURCE_ROOT; };
 		HYXIFWTDXJPPRRMDCEPMDTJH /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		QMNTBWVDMICWTEJGUAKXRYSM /* SparkInspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SparkInspector.framework; path = "/Applications/Spark Inspector.app/Contents/Resources/Frameworks/SparkInspector.framework"; sourceTree = "<group>"; };
 		THBDITSPYVFDWQYYBDCIDIXG /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 				6D979F9C193942740029BA29 /* ViewController.h */,
 				6D979F9D193942740029BA29 /* ViewController.m */,
 				6D979F90193942740029BA29 /* back.png */,
+				6D979FA8193A13780029BA29 /* icon2.png */,
 				6D979F99193942740029BA29 /* icon.png */,
 				6D979FA7193942A00029BA29 /* Supporting files */,
 			);
@@ -199,6 +202,7 @@
 				6D979FA4193942750029BA29 /* Images.xcassets in Resources */,
 				6D979FA3193942750029BA29 /* icon.png in Resources */,
 				6D979FA2193942750029BA29 /* InfoPlist.strings in Resources */,
+				6D979FA9193A13780029BA29 /* icon2.png in Resources */,
 				6D979FA1193942750029BA29 /* demo-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

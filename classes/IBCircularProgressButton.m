@@ -45,16 +45,34 @@
 
 @implementation IBCircularProgressButton
 
+- (CGRect)adjustFrame:(CGRect)frame {
+	float diffX = 0, diffY = 0;
+	if (frame.size.width > frame.size.height) {
+		diffX = frame.size.width - frame.size.height;
+	}
+	else {
+		diffY = frame.size.height - frame.size.width;
+	}
+	frame.origin.x += diffX / 2;
+	frame.origin.y += diffY / 2;
+	frame.size.width -= diffX;
+	frame.size.height -= diffY;
+	return frame;
+}
+
 - (id)initWithCoder:(NSCoder *)aDecoder {
 	self = [super initWithCoder:aDecoder];
 	if (self) {
+		NSLog(@"frame %@", NSStringFromCGRect(self.frame));
 		[self setUp];
 	}
 	return self;
 }
 
 - (id)initWithFrame:(CGRect)frame {
-	self = [super initWithFrame:frame];
+	self = [super initWithFrame:[self adjustFrame:frame]];
+    
+	NSLog(@"frame %@", NSStringFromCGRect(self.frame));
 	if (self) {
 		[self setUp];
 	}
@@ -69,6 +87,13 @@
 	_imageView.userInteractionEnabled = NO;
     
 	_buttonPressOffset = CGSizeMake(2, 1);
+    
+	NSLog(@"frame %@", NSStringFromCGRect(self.frame));
+    
+	self.frame = [self adjustFrame:self.frame];
+    
+	NSLog(@"frame %@", NSStringFromCGRect(self.frame));
+    
     
 	self.delegate = nil;
 	self.clipsToBounds = YES;
@@ -85,7 +110,7 @@
 	self.wrapperColor = self.tintColor;
 	self.backgroundColor = [UIColor whiteColor];
 	self.buttonBorderColor = [UIColor grayColor];
-	self.borderColor = [UIColor grayColor];
+	self.borderColor = [UIColor darkGrayColor];
     
     
     
@@ -95,16 +120,18 @@
     
     
 	self.borderWidth = 1;
-	self.buttonBorderWidth = 0.5;
+	self.buttonBorderWidth = 0;
     
 	self.wrapperArcWidth = 2.f;
 	self.progressArcWidth = self.frame.size.width / 10;
-	self.spaceWidth = self.frame.size.width / 10;
+	self.spaceWidth = 2.f;
     
     
 	self.enableButton = YES;
     
 	[self addSubview:_imageView];
+	[self setNeedsLayout];
+	[self setNeedsDisplay];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -231,6 +258,14 @@
 }
 
 #pragma mark - Setters methods
+
+- (void)setTintColor:(UIColor *)tintColor {
+	self.borderColor = tintColor;
+	self.buttonBorderColor = tintColor;
+	self.progressColor = tintColor;
+	self.wrapperColor = tintColor;
+	[self setNeedsDisplay];
+}
 
 - (void)setImage:(UIImage *)image {
 	_image = image;

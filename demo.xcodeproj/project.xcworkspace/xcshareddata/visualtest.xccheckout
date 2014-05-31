@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D2FD21D8-2963-42EC-A725-97F9224384BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>visualtest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E1F01E3-6A7D-4241-A719-7A6883275232</key>
+		<string>https://github.com/Tintenklecks/IBProgressButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>visualtest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E1F01E3-6A7D-4241-A719-7A6883275232</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Tintenklecks/IBProgressButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E1F01E3-6A7D-4241-A719-7A6883275232</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E1F01E3-6A7D-4241-A719-7A6883275232</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IBProgressButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>

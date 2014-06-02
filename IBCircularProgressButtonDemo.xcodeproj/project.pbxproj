@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D9CEB9A193C9BD700040F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9CEB99193C9BD700040F48 /* Foundation.framework */; };
+		6D9CEB9C193C9BD700040F48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9CEB9B193C9BD700040F48 /* CoreGraphics.framework */; };
+		6D9CEB9E193C9BD700040F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9CEB9D193C9BD700040F48 /* UIKit.framework */; };
+		6D9CEBA4193C9BD700040F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBA2193C9BD700040F48 /* InfoPlist.strings */; };
+		6D9CEBA6193C9BD700040F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9CEBA5193C9BD700040F48 /* main.m */; };
+		6D9CEBAA193C9BD700040F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9CEBA9193C9BD700040F48 /* AppDelegate.m */; };
+		6D9CEBB2193C9BD800040F48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBB1193C9BD800040F48 /* Images.xcassets */; };
+		6D9CEBB9193C9BD800040F48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9CEBB8193C9BD800040F48 /* XCTest.framework */; };
+		6D9CEBBA193C9BD800040F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9CEB99193C9BD700040F48 /* Foundation.framework */; };
+		6D9CEBBB193C9BD800040F48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9CEB9D193C9BD700040F48 /* UIKit.framework */; };
+		6D9CEBC3193C9BD800040F48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBC1193C9BD800040F48 /* InfoPlist.strings */; };
+		6D9CEBC5193C9BD800040F48 /* IBCircularProgressButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9CEBC4193C9BD800040F48 /* IBCircularProgressButtonDemoTests.m */; };
+		6D9CEBD1193C9C0F00040F48 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBCE193C9C0F00040F48 /* back.png */; };
+		6D9CEBD2193C9C0F00040F48 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBCF193C9C0F00040F48 /* icon.png */; };
+		6D9CEBD3193C9C0F00040F48 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBD0193C9C0F00040F48 /* icon2.png */; };
+		6D9CEBD5193C9C2200040F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9CEBD4193C9C2200040F48 /* Main.storyboard */; };
+		6D9CEBD8193C9C3600040F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9CEBD7193C9C3600040F48 /* ViewController.m */; };
+		6D9CEBDC193C9C6700040F48 /* IBCircularProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9CEBDB193C9C6700040F48 /* IBCircularProgressButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D9CEBBC193C9BD800040F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D9CEB8E193C9BD700040F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D9CEB95193C9BD700040F48;
+			remoteInfo = IBCircularProgressButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D9CEB96193C9BD700040F48 /* IBCircularProgressButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBCircularProgressButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9CEB99193C9BD700040F48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D9CEB9B193C9BD700040F48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D9CEB9D193C9BD700040F48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D9CEBA1193C9BD700040F48 /* IBCircularProgressButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBCircularProgressButtonDemo-Info.plist"; sourceTree = "<group>"; };
+		6D9CEBA3193C9BD700040F48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D9CEBA5193C9BD700040F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D9CEBA7193C9BD700040F48 /* IBCircularProgressButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBCircularProgressButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6D9CEBA8193C9BD700040F48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D9CEBA9193C9BD700040F48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D9CEBB1193C9BD800040F48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D9CEBB7193C9BD800040F48 /* IBCircularProgressButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBCircularProgressButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9CEBB8193C9BD800040F48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D9CEBC0193C9BD800040F48 /* IBCircularProgressButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBCircularProgressButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6D9CEBC2193C9BD800040F48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D9CEBC4193C9BD800040F48 /* IBCircularProgressButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBCircularProgressButtonDemoTests.m; sourceTree = "<group>"; };
+		6D9CEBCE193C9C0F00040F48 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		6D9CEBCF193C9C0F00040F48 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6D9CEBD0193C9C0F00040F48 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		6D9CEBD4193C9C2200040F48 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6D9CEBD6193C9C3600040F48 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D9CEBD7193C9C3600040F48 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D9CEBDA193C9C6700040F48 /* IBCircularProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBCircularProgressButton.h; sourceTree = "<group>"; };
+		6D9CEBDB193C9C6700040F48 /* IBCircularProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBCircularProgressButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9CEB93193C9BD700040F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CEB9C193C9BD700040F48 /* CoreGraphics.framework in Frameworks */,
+				6D9CEB9E193C9BD700040F48 /* UIKit.framework in Frameworks */,
+				6D9CEB9A193C9BD700040F48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9CEBB4193C9BD800040F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CEBB9193C9BD800040F48 /* XCTest.framework in Frameworks */,
+				6D9CEBBB193C9BD800040F48 /* UIKit.framework in Frameworks */,
+				6D9CEBBA193C9BD800040F48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D9CEB8D193C9BD700040F48 = {
+			isa = PBXGroup;
+			children = (
+				6D9CEBD9193C9C6700040F48 /* classes */,
+				6D9CEB9F193C9BD700040F48 /* IBCircularProgressButtonDemo */,
+				6D9CEBBE193C9BD800040F48 /* IBCircularProgressButtonDemoTests */,
+				6D9CEB98193C9BD700040F48 /* Frameworks */,
+				6D9CEB97193C9BD700040F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D9CEB97193C9BD700040F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEB96193C9BD700040F48 /* IBCircularProgressButtonDemo.app */,
+				6D9CEBB7193C9BD800040F48 /* IBCircularProgressButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D9CEB98193C9BD700040F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEB99193C9BD700040F48 /* Foundation.framework */,
+				6D9CEB9B193C9BD700040F48 /* CoreGraphics.framework */,
+				6D9CEB9D193C9BD700040F48 /* UIKit.framework */,
+				6D9CEBB8193C9BD800040F48 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D9CEB9F193C9BD700040F48 /* IBCircularProgressButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEBA8193C9BD700040F48 /* AppDelegate.h */,
+				6D9CEBA9193C9BD700040F48 /* AppDelegate.m */,
+				6D9CEBD4193C9C2200040F48 /* Main.storyboard */,
+				6D9CEBD6193C9C3600040F48 /* ViewController.h */,
+				6D9CEBD7193C9C3600040F48 /* ViewController.m */,
+				6D9CEBCE193C9C0F00040F48 /* back.png */,
+				6D9CEBCF193C9C0F00040F48 /* icon.png */,
+				6D9CEBD0193C9C0F00040F48 /* icon2.png */,
+				6D9CEBB1193C9BD800040F48 /* Images.xcassets */,
+				6D9CEBA0193C9BD700040F48 /* Supporting Files */,
+			);
+			path = IBCircularProgressButtonDemo;
+			sourceTree = "<group>";
+		};
+		6D9CEBA0193C9BD700040F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEBA1193C9BD700040F48 /* IBCircularProgressButtonDemo-Info.plist */,
+				6D9CEBA2193C9BD700040F48 /* InfoPlist.strings */,
+				6D9CEBA5193C9BD700040F48 /* main.m */,
+				6D9CEBA7193C9BD700040F48 /* IBCircularProgressButtonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D9CEBBE193C9BD800040F48 /* IBCircularProgressButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEBC4193C9BD800040F48 /* IBCircularProgressButtonDemoTests.m */,
+				6D9CEBBF193C9BD800040F48 /* Supporting Files */,
+			);
+			path = IBCircularProgressButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		6D9CEBBF193C9BD800040F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEBC0193C9BD800040F48 /* IBCircularProgressButtonDemoTests-Info.plist */,
+				6D9CEBC1193C9BD800040F48 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D9CEBD9193C9C6700040F48 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D9CEBDA193C9C6700040F48 /* IBCircularProgressButton.h */,
+				6D9CEBDB193C9C6700040F48 /* IBCircularProgressButton.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D9CEB95193C9BD700040F48 /* IBCircularProgressButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9CEBC8193C9BD800040F48 /* Build configuration list for PBXNativeTarget "IBCircularProgressButtonDemo" */;
+			buildPhases = (
+				6D9CEB92193C9BD700040F48 /* Sources */,
+				6D9CEB93193C9BD700040F48 /* Frameworks */,
+				6D9CEB94193C9BD700040F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBCircularProgressButtonDemo;
+			productName = IBCircularProgressButtonDemo;
+			productReference = 6D9CEB96193C9BD700040F48 /* IBCircularProgressButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D9CEBB6193C9BD800040F48 /* IBCircularProgressButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9CEBCB193C9BD800040F48 /* Build configuration list for PBXNativeTarget "IBCircularProgressButtonDemoTests" */;
+			buildPhases = (
+				6D9CEBB3193C9BD800040F48 /* Sources */,
+				6D9CEBB4193C9BD800040F48 /* Frameworks */,
+				6D9CEBB5193C9BD800040F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D9CEBBD193C9BD800040F48 /* PBXTargetDependency */,
+			);
+			name = IBCircularProgressButtonDemoTests;
+			productName = IBCircularProgressButtonDemoTests;
+			productReference = 6D9CEBB7193C9BD800040F48 /* IBCircularProgressButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D9CEB8E193C9BD700040F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IBMobile;
+				TargetAttributes = {
+					6D9CEBB6193C9BD800040F48 = {
+						TestTargetID = 6D9CEB95193C9BD700040F48;
+					};
+				};
+			};
+			buildConfigurationList = 6D9CEB91193C9BD700040F48 /* Build configuration list for PBXProject "IBCircularProgressButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D9CEB8D193C9BD700040F48;
+			productRefGroup = 6D9CEB97193C9BD700040F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D9CEB95193C9BD700040F48 /* IBCircularProgressButtonDemo */,
+				6D9CEBB6193C9BD800040F48 /* IBCircularProgressButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D9CEB94193C9BD700040F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CEBD2193C9C0F00040F48 /* icon.png in Resources */,
+				6D9CEBD3193C9C0F00040F48 /* icon2.png in Resources */,
+				6D9CEBB2193C9BD800040F48 /* Images.xcassets in Resources */,
+				6D9CEBD5193C9C2200040F48 /* Main.storyboard in Resources */,
+				6D9CEBA4193C9BD700040F48 /* InfoPlist.strings in Resources */,
+				6D9CEBD1193C9C0F00040F48 /* back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9CEBB5193C9BD800040F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CEBC3193C9BD800040F48 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D9CEB92193C9BD700040F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CEBD8193C9C3600040F48 /* ViewController.m in Sources */,
+				6D9CEBAA193C9BD700040F48 /* AppDelegate.m in Sources */,
+				6D9CEBDC193C9C6700040F48 /* IBCircularProgressButton.m in Sources */,
+				6D9CEBA6193C9BD700040F48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9CEBB3193C9BD800040F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9CEBC5193C9BD800040F48 /* IBCircularProgressButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D9CEBBD193C9BD800040F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D9CEB95193C9BD700040F48 /* IBCircularProgressButtonDemo */;
+			targetProxy = 6D9CEBBC193C9BD800040F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D9CEBA2193C9BD700040F48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D9CEBA3193C9BD700040F48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D9CEBC1193C9BD800040F48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D9CEBC2193C9BD800040F48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D9CEBC6193C9BD800040F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D9CEBC7193C9BD800040F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D9CEBC9193C9BD800040F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBCircularProgressButtonDemo/IBCircularProgressButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "IBCircularProgressButtonDemo/IBCircularProgressButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D9CEBCA193C9BD800040F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBCircularProgressButtonDemo/IBCircularProgressButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "IBCircularProgressButtonDemo/IBCircularProgressButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D9CEBCC193C9BD800040F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IBCircularProgressButtonDemo.app/IBCircularProgressButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBCircularProgressButtonDemo/IBCircularProgressButtonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IBCircularProgressButtonDemoTests/IBCircularProgressButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6D9CEBCD193C9BD800040F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IBCircularProgressButtonDemo.app/IBCircularProgressButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBCircularProgressButtonDemo/IBCircularProgressButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "IBCircularProgressButtonDemoTests/IBCircularProgressButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D9CEB91193C9BD700040F48 /* Build configuration list for PBXProject "IBCircularProgressButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9CEBC6193C9BD800040F48 /* Debug */,
+				6D9CEBC7193C9BD800040F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9CEBC8193C9BD800040F48 /* Build configuration list for PBXNativeTarget "IBCircularProgressButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9CEBC9193C9BD800040F48 /* Debug */,
+				6D9CEBCA193C9BD800040F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D9CEBCB193C9BD800040F48 /* Build configuration list for PBXNativeTarget "IBCircularProgressButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9CEBCC193C9BD800040F48 /* Debug */,
+				6D9CEBCD193C9BD800040F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D9CEB8E193C9BD700040F48 /* Project object */;
+}

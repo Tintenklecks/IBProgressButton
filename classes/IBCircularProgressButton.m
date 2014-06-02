@@ -129,12 +129,19 @@
     
 	self.enableButton = YES;
     
+    
+	_target = nil;
+	_selector = nil;
+    
+    
+    
 	[self addSubview:_imageView];
 	[self setNeedsLayout];
 	[self setNeedsDisplay];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	if (_selector == nil) return;
 	self.alpha = 0.5;
 	self.center = CGPointMake(self.center.x + _buttonPressOffset.width, self.center.y + _buttonPressOffset.height);
 	NSLog(@"DOWN");
@@ -144,6 +151,7 @@
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+	if (_selector == nil) return;
 	for (UITouch *touch in touches) {
 		CGPoint touchPoint = [touch locationInView:self];
 		if ([self pointInside:touchPoint withEvent:nil]) {
@@ -156,6 +164,7 @@
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+	if (_selector == nil) return;
 	for (UITouch *touch in touches) {
 		CGPoint touchPoint = [touch locationInView:self];
 		if ([self pointInside:touchPoint withEvent:nil]) {
@@ -182,6 +191,8 @@
 }
 
 - (void)execSelector {
+	if (_selector == nil) return;
+    
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     

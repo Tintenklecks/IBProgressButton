@@ -68,7 +68,7 @@ How much the button moves when pressed is set by
 
 
 #Installation
-Well, I would install it with Cocoapods ...
+Well, I would install it with CocoaPods ...
 
     pod "IBProgressButton"
 
